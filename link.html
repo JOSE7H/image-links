@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=3.0">
+  <title>My Wabpage</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin:0;
+      padding:0;
+    }
+    header {background-color: rgb(188, 187, 196);color: rgb(29, 3, 3);text-align: center;padding: 10px;}
+     nav {
+    text-align: center;
+    background-color: rgb(184, 89, 168);
+    padding: 15px; 
+     }
+     section{padding:20px;}
+     .gallery {display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 10px;}
+  .gallery img{width: 100%; height: auto;}
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to my webpage</h1>
+  </header>
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#gallery">Gallery</a> ||
+    <a href="#menu">Menu</a>
+  </nav>
+  <section id="home">
+    <h2>Home</h2> 
+  <p>Welcome to our webpage.World of technology!</p>
+  <a href="https://upload.wikimedia.org/wikipedia/commons/5/59/Diesel_Forces.jpg" target="_blank">technology</a>
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <a href="https://cdn.pixabay.com/photo/2023/04/10/20/41/bird-7914702_1280.jpg">nature image of bird</a>
+      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Startrails_above_Gunung_Bromo_-_Indonesia.jpg/1024px-Startrails_above_Gunung_Bromo_-_Indonesia.jpg"> nature image 2</a>
+      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ocean_from_Leblon.jpg/1280px-Ocean_from_Leblon.jpg">nature image3</a>
+    </div>
+  </section>
+  <section id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Scrambed_eggs.jpg/250px-Scrambed_eggs.jpg">Scrambed_eggs</a></li>
+      <li><a href="https://upload.wikimedia.org/wikipedia/commons/5/51/Sous_vide_mashed_potatoes.jpg">Sous_vide_mashed_potatoes</a></li>
+      <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Afghan_II_MRD.jpg/220px-Afghan_II_MRD.jpg">Afghan_II_MRD</a></li>
+    </ul>
+  </section> 
+</body>
+</html>
